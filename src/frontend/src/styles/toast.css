@@ -1,0 +1,35 @@
+.custom-toast-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  font-weight: 500;
+}
+
+.Toastify__toast--success {
+  background: var(--success-gradient);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: var(--secondary-gradient);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: var(--primary-gradient);
+  color: white;
+}
+
+.Toastify__toast--warning {
+  background: var(--warning-gradient);
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+

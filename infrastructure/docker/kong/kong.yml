@@ -1,0 +1,65 @@
+_format_version: "3.0"
+
+services:
+  - name: auth-service
+    url: http://auth-service:8080
+    routes:
+      - name: auth-route
+        paths:
+          - /api/auth
+        strip_path: false
+    plugins:
+      - name: cors
+      - name: rate-limiting
+        config:
+          minute: 100
+          hour: 1000
+
+  - name: account-service
+    url: http://account-service:8080
+    routes:
+      - name: account-route
+        paths:
+          - /api/account
+        strip_path: false
+    plugins:
+      - name: cors
+      - name: rate-limiting
+        config:
+          minute: 200
+          hour: 5000
+      - name: jwt
+        config:
+          secret_is_base64: false
+
+  - name: transaction-service
+    url: http://transaction-service:8080
+    routes:
+      - name: transaction-route
+        paths:
+          - /api/transaction
+        strip_path: false
+    plugins:
+      - name: cors
+      - name: rate-limiting
+        config:
+          minute: 100
+          hour: 2000
+      - name: jwt
+        config:
+          secret_is_base64: false
+
+  - name: notification-service
+    url: http://notification-service:8080
+    routes:
+      - name: notification-route
+        paths:
+          - /api/notification
+        strip_path: false
+    plugins:
+      - name: cors
+      - name: jwt
+        config:
+          secret_is_base64: false
+
+

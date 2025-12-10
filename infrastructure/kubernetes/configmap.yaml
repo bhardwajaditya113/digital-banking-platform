@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: banking-config
+  namespace: banking-platform
+data:
+  JWT_SECRET_KEY: "YourSuperSecretKeyForJWTTokenGeneration123456789"
+  JWT_ISSUER: "BankingPlatform"
+  JWT_AUDIENCE: "BankingPlatform"
+  KAFKA_BOOTSTRAP_SERVERS: "kafka:29092"
+
+
