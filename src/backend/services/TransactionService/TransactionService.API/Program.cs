@@ -108,9 +108,14 @@ using (var scope = app.Services.CreateScope())
 
 Log.Information("Transaction Service started on port 5003");
 
+// Configure URLs - use environment variable or default
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS");
+if (string.IsNullOrEmpty(urls))
+{
+    // Default to localhost for local dev, Docker will override with ASPNETCORE_URLS
 app.Urls.Clear();
-app.Urls.Add("http://localhost:5003");
-app.Urls.Add("https://localhost:5003");
+    app.Urls.Add("http://0.0.0.0:5003");
+}
 
 app.Run();
 

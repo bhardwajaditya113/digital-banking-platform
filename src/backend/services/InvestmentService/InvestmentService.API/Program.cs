@@ -118,7 +118,16 @@ using (var scope = app.Services.CreateScope())
     db.Database.EnsureCreated();
 }
 
-Log.Information("Investment Service started on port 5005");
+// Configure URLs - use environment variable or default
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS");
+if (string.IsNullOrEmpty(urls))
+{
+    // Default to localhost for local dev, Docker will override with ASPNETCORE_URLS
+    app.Urls.Clear();
+    app.Urls.Add("http://0.0.0.0:5005");
+}
+
+Log.Information("Investment Service started");
 
 app.Run();
 

@@ -118,7 +118,16 @@ using (var scope = app.Services.CreateScope())
     db.Database.EnsureCreated();
 }
 
-Log.Information("Loan Service started on port 5006");
+// Configure URLs - use environment variable or default
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS");
+if (string.IsNullOrEmpty(urls))
+{
+    // Default to localhost for local dev, Docker will override with ASPNETCORE_URLS
+    app.Urls.Clear();
+    app.Urls.Add("http://0.0.0.0:5006");
+}
+
+Log.Information("Loan Service started");
 
 app.Run();
 

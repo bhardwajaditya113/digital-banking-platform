@@ -50,6 +50,8 @@
   },
   "proxy": "http://localhost:8000",
   "devDependencies": {
-    "ajv": "^8.0.0"
+    "@playwright/test": "^1.57.0",
+    "ajv": "^8.0.0",
+    "playwright": "^1.57.0"
   }
 }

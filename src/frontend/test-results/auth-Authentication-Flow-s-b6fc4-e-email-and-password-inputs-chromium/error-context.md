@@ -1,0 +1,303 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - generic [ref=e10]: FinanceSuperApp
+      - generic [ref=e11]:
+        - link "Products" [ref=e12] [cursor=pointer]:
+          - /url: /products
+        - link "Pricing" [ref=e13] [cursor=pointer]:
+          - /url: /pricing
+        - link "Learn" [ref=e14] [cursor=pointer]:
+          - /url: /learn
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: /about
+        - link "Support" [ref=e16] [cursor=pointer]:
+          - /url: /support
+      - generic [ref=e17]:
+        - link "Sign In" [ref=e18] [cursor=pointer]:
+          - /url: /login
+        - link "Get Started" [ref=e19] [cursor=pointer]:
+          - /url: /register
+  - generic [ref=e22]:
+    - heading "Invest in Everything" [level=1] [ref=e23]
+    - paragraph [ref=e24]: One platform for stocks, crypto, banking, and AI-powered investing. Trade globally, invest smartly, and grow your wealth.
+    - generic [ref=e25]:
+      - button "Get Started Free" [ref=e26] [cursor=pointer]:
+        - text: Get Started Free
+        - img [ref=e27]
+      - button "Explore Products" [ref=e29] [cursor=pointer]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: 1M+
+        - generic [ref=e33]: Active Users
+      - generic [ref=e34]:
+        - generic [ref=e35]: $50B+
+        - generic [ref=e36]: Assets Under Management
+      - generic [ref=e37]:
+        - generic [ref=e38]: 150+
+        - generic [ref=e39]: Countries Supported
+      - generic [ref=e40]:
+        - generic [ref=e41]: 24/7
+        - generic [ref=e42]: Customer Support
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - heading "Everything You Need to Invest" [level=2] [ref=e60]
+      - paragraph [ref=e61]: A complete financial ecosystem in one powerful platform
+    - generic [ref=e62]:
+      - generic [ref=e63] [cursor=pointer]:
+        - img [ref=e65]
+        - heading "Stock Trading" [level=3] [ref=e67]
+        - paragraph [ref=e68]: Trade stocks, options, futures, and ETFs on global markets with zero commission.
+      - generic [ref=e69] [cursor=pointer]:
+        - img [ref=e71]
+        - heading "Crypto Trading" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Buy, sell, and trade cryptocurrencies 24/7 with Web3 wallet integration.
+      - generic [ref=e75] [cursor=pointer]:
+        - img [ref=e77]
+        - heading "AI-Powered Advisor" [level=3] [ref=e79]
+        - paragraph [ref=e80]: Get personalized investment advice powered by advanced AI algorithms.
+      - generic [ref=e81] [cursor=pointer]:
+        - img [ref=e83]
+        - heading "Digital Banking" [level=3] [ref=e85]
+        - paragraph [ref=e86]: Complete banking solution with accounts, loans, and investment products.
+      - generic [ref=e87] [cursor=pointer]:
+        - img [ref=e89]
+        - heading "Bank-Level Security" [level=3] [ref=e91]
+        - paragraph [ref=e92]: Your funds and data protected with enterprise-grade security.
+      - generic [ref=e93] [cursor=pointer]:
+        - img [ref=e95]
+        - heading "Mobile First" [level=3] [ref=e97]
+        - paragraph [ref=e98]: Trade and manage your finances on the go with our mobile-optimized platform.
+  - generic [ref=e101]:
+    - generic [ref=e102]:
+      - img [ref=e103]
+      - heading "Trust with Confidence" [level=2] [ref=e105]
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - img [ref=e108]
+        - generic [ref=e110]:
+          - heading "Bank-Level Security" [level=4] [ref=e111]
+          - paragraph [ref=e112]: 256-bit encryption and multi-factor authentication
+      - generic [ref=e113]:
+        - img [ref=e114]
+        - generic [ref=e116]:
+          - heading "Regulated & Licensed" [level=4] [ref=e117]
+          - paragraph [ref=e118]: Fully compliant with financial regulations worldwide
+      - generic [ref=e119]:
+        - img [ref=e120]
+        - generic [ref=e122]:
+          - heading "Insurance Protection" [level=4] [ref=e123]
+          - paragraph [ref=e124]: Your funds protected up to $500,000
+      - generic [ref=e125]:
+        - img [ref=e126]
+        - generic [ref=e128]:
+          - heading "24/7 Support" [level=4] [ref=e129]
+          - paragraph [ref=e130]: Round-the-clock customer service when you need it
+  - generic [ref=e132]:
+    - generic [ref=e133]:
+      - heading "Unbeatable Pricing" [level=2] [ref=e134]
+      - paragraph [ref=e135]: Transparent fees, no hidden charges. Start trading for free.
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - heading "Free" [level=3] [ref=e139]
+          - generic [ref=e140]: $0/month
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - img [ref=e143]
+            - text: Free account opening
+          - listitem [ref=e145]:
+            - img [ref=e146]
+            - text: Free equity delivery trades
+          - listitem [ref=e148]:
+            - img [ref=e149]
+            - text: Basic trading tools
+          - listitem [ref=e151]:
+            - img [ref=e152]
+            - text: Mobile app access
+        - button "Get Started" [ref=e154] [cursor=pointer]
+      - generic [ref=e155]:
+        - generic [ref=e156]: Most Popular
+        - generic [ref=e157]:
+          - heading "Pro" [level=3] [ref=e158]
+          - generic [ref=e159]: $9.99/month
+        - list [ref=e160]:
+          - listitem [ref=e161]:
+            - img [ref=e162]
+            - text: Everything in Free
+          - listitem [ref=e164]:
+            - img [ref=e165]
+            - text: Advanced charting tools
+          - listitem [ref=e167]:
+            - img [ref=e168]
+            - text: AI-powered insights
+          - listitem [ref=e170]:
+            - img [ref=e171]
+            - text: Priority support
+          - listitem [ref=e173]:
+            - img [ref=e174]
+            - text: Lower trading fees
+        - button "Upgrade to Pro" [ref=e176] [cursor=pointer]
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - heading "Enterprise" [level=3] [ref=e179]
+          - generic [ref=e180]: Custom
+        - list [ref=e181]:
+          - listitem [ref=e182]:
+            - img [ref=e183]
+            - text: Everything in Pro
+          - listitem [ref=e185]:
+            - img [ref=e186]
+            - text: Dedicated account manager
+          - listitem [ref=e188]:
+            - img [ref=e189]
+            - text: API access
+          - listitem [ref=e191]:
+            - img [ref=e192]
+            - text: Custom integrations
+          - listitem [ref=e194]:
+            - img [ref=e195]
+            - text: White-label options
+        - button "Contact Sales" [ref=e197] [cursor=pointer]
+  - generic [ref=e199]:
+    - generic [ref=e200]:
+      - heading "Trusted by Millions" [level=2] [ref=e201]
+      - paragraph [ref=e202]: See what our users are saying
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - img [ref=e206]
+          - img [ref=e208]
+          - img [ref=e210]
+          - img [ref=e212]
+          - img [ref=e214]
+        - paragraph [ref=e216]: "\"The best trading platform I've used. Zero fees and lightning-fast execution.\""
+        - generic [ref=e217]:
+          - generic [ref=e218]: S
+          - generic [ref=e219]:
+            - generic [ref=e220]: Sarah Chen
+            - generic [ref=e221]: Day Trader
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - img [ref=e224]
+          - img [ref=e226]
+          - img [ref=e228]
+          - img [ref=e230]
+          - img [ref=e232]
+        - paragraph [ref=e234]: "\"Web3 integration is seamless. I can manage all my crypto assets in one place.\""
+        - generic [ref=e235]:
+          - generic [ref=e236]: M
+          - generic [ref=e237]:
+            - generic [ref=e238]: Michael Rodriguez
+            - generic [ref=e239]: Crypto Investor
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - img [ref=e242]
+          - img [ref=e244]
+          - img [ref=e246]
+          - img [ref=e248]
+          - img [ref=e250]
+        - paragraph [ref=e252]: "\"The AI advisor helped me build a diversified portfolio. Highly recommended!\""
+        - generic [ref=e253]:
+          - generic [ref=e254]: P
+          - generic [ref=e255]:
+            - generic [ref=e256]: Priya Sharma
+            - generic [ref=e257]: Long-term Investor
+  - generic [ref=e260]:
+    - heading "Ready to Start Investing?" [level=2] [ref=e261]
+    - paragraph [ref=e262]: Join millions of investors building wealth with our platform
+    - button "Open Your Free Account" [ref=e263] [cursor=pointer]:
+      - text: Open Your Free Account
+      - img [ref=e264]
+  - contentinfo [ref=e266]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - img [ref=e270]
+          - generic [ref=e272]: FinanceSuperApp
+        - paragraph [ref=e273]: The all-in-one platform for trading, investing, and banking.
+        - generic [ref=e274]:
+          - link "Twitter" [ref=e275] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e276]
+          - link "LinkedIn" [ref=e278] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e279]
+          - link "GitHub" [ref=e281] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e282]
+      - generic [ref=e284]:
+        - heading "Products" [level=4] [ref=e285]
+        - list [ref=e286]:
+          - listitem [ref=e287]:
+            - link "Trading" [ref=e288] [cursor=pointer]:
+              - /url: /products/trading
+          - listitem [ref=e289]:
+            - link "Crypto" [ref=e290] [cursor=pointer]:
+              - /url: /products/crypto
+          - listitem [ref=e291]:
+            - link "Banking" [ref=e292] [cursor=pointer]:
+              - /url: /products/banking
+          - listitem [ref=e293]:
+            - link "AI Advisor" [ref=e294] [cursor=pointer]:
+              - /url: /products/ai-advisor
+      - generic [ref=e295]:
+        - heading "Resources" [level=4] [ref=e296]
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - link "Learn" [ref=e299] [cursor=pointer]:
+              - /url: /learn
+          - listitem [ref=e300]:
+            - link "Calculators" [ref=e301] [cursor=pointer]:
+              - /url: /calculators
+          - listitem [ref=e302]:
+            - link "Blog" [ref=e303] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e304]:
+            - link "API Docs" [ref=e305] [cursor=pointer]:
+              - /url: /api-docs
+      - generic [ref=e306]:
+        - heading "Company" [level=4] [ref=e307]
+        - list [ref=e308]:
+          - listitem [ref=e309]:
+            - link "About" [ref=e310] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e311]:
+            - link "Careers" [ref=e312] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=e313]:
+            - link "Press" [ref=e314] [cursor=pointer]:
+              - /url: /press
+          - listitem [ref=e315]:
+            - link "Contact" [ref=e316] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e317]:
+        - heading "Support" [level=4] [ref=e318]
+        - list [ref=e319]:
+          - listitem [ref=e320]:
+            - link "Help Center" [ref=e321] [cursor=pointer]:
+              - /url: /support
+          - listitem [ref=e322]:
+            - link "Security" [ref=e323] [cursor=pointer]:
+              - /url: /security
+          - listitem [ref=e324]:
+            - link "Privacy" [ref=e325] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=e326]:
+            - link "Terms" [ref=e327] [cursor=pointer]:
+              - /url: /terms
+    - generic [ref=e328]:
+      - paragraph [ref=e329]: © 2025 FinanceSuperApp. All rights reserved.
+      - generic [ref=e330]:
+        - link "Privacy Policy" [ref=e331] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e332] [cursor=pointer]:
+          - /url: /terms
+        - link "Disclosures" [ref=e333] [cursor=pointer]:
+          - /url: /disclosures
+```

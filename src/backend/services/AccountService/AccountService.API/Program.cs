@@ -136,9 +136,14 @@ using (var scope = app.Services.CreateScope())
 
 Log.Information("Account Service started on port 5002");
 
+// Configure URLs - use environment variable or default
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS");
+if (string.IsNullOrEmpty(urls))
+{
+    // Default to localhost for local dev, Docker will override with ASPNETCORE_URLS
 app.Urls.Clear();
-app.Urls.Add("http://localhost:5002");
-app.Urls.Add("https://localhost:5002");
+    app.Urls.Add("http://0.0.0.0:5002");
+}
 
 app.Run();
 
